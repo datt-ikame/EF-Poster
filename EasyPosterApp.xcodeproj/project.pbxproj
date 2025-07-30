@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		436680032E3A6EA9004DC869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43667FFA2E3A6EA9004DC869 /* Assets.xcassets */; };
+		436680052E3A6EA9004DC869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43667FFD2E3A6EA9004DC869 /* LaunchScreen.storyboard */; };
+		436680062E3A6EA9004DC869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43667FFF2E3A6EA9004DC869 /* Main.storyboard */; };
+		436680072E3A6EA9004DC869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43667FF92E3A6EA9004DC869 /* AppDelegate.swift */; };
+		436680082E3A6EA9004DC869 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436680002E3A6EA9004DC869 /* SceneDelegate.swift */; };
+		436680092E3A6EA9004DC869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436680012E3A6EA9004DC869 /* ViewController.swift */; };
+		4366800D2E3A6F52004DC869 /* CameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4366800C2E3A6F52004DC869 /* CameraVC.xib */; };
+		4366800E2E3A6F52004DC869 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366800B2E3A6F52004DC869 /* CameraVC.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		43667EBB2E3519E3004DC869 /* EasyPosterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPosterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43667FF92E3A6EA9004DC869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43667FFA2E3A6EA9004DC869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43667FFB2E3A6EA9004DC869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43667FFC2E3A6EA9004DC869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43667FFE2E3A6EA9004DC869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436680002E3A6EA9004DC869 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		436680012E3A6EA9004DC869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4366800B2E3A6F52004DC869 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		4366800C2E3A6F52004DC869 /* CameraVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		43667ECD2E3519E4004DC869 /* Exceptions for "EasyPosterApp" folder in "EasyPosterApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 43667EBA2E3519E3004DC869 /* EasyPosterApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		43667EBD2E3519E3004DC869 /* EasyPosterApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				43667ECD2E3519E4004DC869 /* Exceptions for "EasyPosterApp" folder in "EasyPosterApp" target */,
-			);
-			path = EasyPosterApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		43667EB82E3519E3004DC869 /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		43667EB22E3519E3004DC869 = {
 			isa = PBXGroup;
 			children = (
-				43667EBD2E3519E3004DC869 /* EasyPosterApp */,
+				436680022E3A6EA9004DC869 /* EasyPosterApp */,
 				43667EBC2E3519E3004DC869 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,30 @@
 				43667EBB2E3519E3004DC869 /* EasyPosterApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		436680022E3A6EA9004DC869 /* EasyPosterApp */ = {
+			isa = PBXGroup;
+			children = (
+				4366800A2E3A6EB0004DC869 /* Camera */,
+				43667FF92E3A6EA9004DC869 /* AppDelegate.swift */,
+				43667FFA2E3A6EA9004DC869 /* Assets.xcassets */,
+				43667FFB2E3A6EA9004DC869 /* Info.plist */,
+				43667FFD2E3A6EA9004DC869 /* LaunchScreen.storyboard */,
+				43667FFF2E3A6EA9004DC869 /* Main.storyboard */,
+				436680002E3A6EA9004DC869 /* SceneDelegate.swift */,
+				436680012E3A6EA9004DC869 /* ViewController.swift */,
+			);
+			path = EasyPosterApp;
+			sourceTree = "<group>";
+		};
+		4366800A2E3A6EB0004DC869 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4366800B2E3A6F52004DC869 /* CameraVC.swift */,
+				4366800C2E3A6F52004DC869 /* CameraVC.xib */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				43667EBD2E3519E3004DC869 /* EasyPosterApp */,
 			);
 			name = EasyPosterApp;
 			packageProductDependencies = (
@@ -122,6 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436680032E3A6EA9004DC869 /* Assets.xcassets in Resources */,
+				436680052E3A6EA9004DC869 /* LaunchScreen.storyboard in Resources */,
+				436680062E3A6EA9004DC869 /* Main.storyboard in Resources */,
+				4366800D2E3A6F52004DC869 /* CameraVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +156,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436680072E3A6EA9004DC869 /* AppDelegate.swift in Sources */,
+				436680082E3A6EA9004DC869 /* SceneDelegate.swift in Sources */,
+				436680092E3A6EA9004DC869 /* ViewController.swift in Sources */,
+				4366800E2E3A6F52004DC869 /* CameraVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43667FFD2E3A6EA9004DC869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43667FFC2E3A6EA9004DC869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		43667FFF2E3A6EA9004DC869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43667FFE2E3A6EA9004DC869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		43667ECF2E3519E4004DC869 /* Debug */ = {
